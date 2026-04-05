@@ -1,0 +1,23 @@
+{
+  "hooks": {
+    "SessionEnd": [
+      {
+        "name": "session-reflection",
+        "type": "command",
+        "command": "bash /home/dhili/Cli-flow/scripts/reflect.sh"
+      }
+    ],
+    "AfterTool": [
+      {
+        "matcher": "write_file",
+        "hooks": [
+          {
+            "name": "auto-lint",
+            "type": "command",
+            "command": "bash /home/dhili/Cli-flow/scripts/lint.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@cli-flow/intelligence",
+  "version": "1.0.0",
+  "description": "Gemini-powered intelligence and learning for Cli-flow",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@cli-flow/shared": "workspace:*",
+    "@google/generative-ai": "^0.3.0",
+    "zod": "^3.22.4"
+  }
+}

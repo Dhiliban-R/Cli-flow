@@ -1,0 +1,12 @@
+{
+  "provider": "vertex-ai",
+  "model": "gemini-1.5-pro",
+  "env": {
+    "GOOGLE_CLOUD_PROJECT": "YOUR_PROJECT_ID",
+    "GOOGLE_CLOUD_REGION": "us-central1"
+  },
+  "subagents": {
+    "defaultModel": "gemini-1.5-flash",
+    "enable": true
+  }
+}

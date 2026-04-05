@@ -1,0 +1,19 @@
+{
+  "name": "@cli-flow/swarm",
+  "version": "1.0.0",
+  "description": "Multi-agent swarm orchestration for Cli-flow",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@cli-flow/shared": "workspace:*",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7"
+  }
+}

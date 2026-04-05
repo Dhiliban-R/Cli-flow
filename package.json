@@ -1,0 +1,26 @@
+{
+  "name": "cli-flow",
+  "version": "1.0.0",
+  "description": "Cli-flow - Advanced AI Agent Orchestration for Gemini",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "v1/@cli-flow/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "vitest --workspaces",
+    "dev": "npm run dev --workspaces",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.21.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

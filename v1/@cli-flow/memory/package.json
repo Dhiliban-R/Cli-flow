@@ -1,0 +1,16 @@
+{
+  "name": "@cli-flow/memory",
+  "version": "1.0.0",
+  "description": "AgentDB memory with vector search for Cli-flow",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@cli-flow/shared": "workspace:*",
+    "sql.js": "^1.10.3"
+  }
+}

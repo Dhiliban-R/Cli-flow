@@ -1,0 +1,12 @@
+{
+  "name": "@cli-flow/shared",
+  "version": "1.0.0",
+  "description": "Shared core types and utilities for Cli-flow",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  }
+}
